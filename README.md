@@ -6,6 +6,27 @@
 </div>
 <br><br>
 
+## Note
+
+Because of ... recent events ... I'm moving this repository to Sourcehut. I've
+had a fork there for a while, but over the next weeks I'm going to update,
+transfer the CI, and start repointing distributions there. I'll update this
+readme as this effort progresses.
+
+- [ ] Bring Sourcehut up-to-date
+- [ ] Migrate CI
+- [ ] Change Arch packages
+- [ ] Change Alpine package
+- [ ] Change Homebrew package
+- [ ] Change Void package
+
+If you manage a package for a distribution which I haven't mentioned, please
+subscribe to the [gotop mailing list](https://lists.sr.ht/~ser/gotop) at least
+until you can repoint your packaging; I'll post updates on the migration
+progress there.
+
+## Introduction
+
 Another terminal based graphical activity monitor, inspired by [gtop](https://github.com/aksakalli/gtop) and [vtop](https://github.com/MrRio/vtop), this time written in [Go](https://golang.org/)!
 
 Join us in [\#gotop:matrix.org](https://app.element.io/#/room/#gotop:matrix.org) ![](https://img.shields.io/matrix/gotop:matrix.org) ([matrix clients](https://matrix.to/#/#gotop:matrix.org)).
